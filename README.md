@@ -1,61 +1,150 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📝 Postit Laravel MVC App
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A clean and functional blogging-style web app built using **Laravel 10 (MVC)** and **Blade templating**.  
+This project was developed as a portfolio piece to demonstrate practical skills in full-stack Laravel development.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📌 What the Project Does
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Postit is a simple but effective platform that allows users to:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- ✅ Register and log in securely  
+- ✅ Create text-based blog posts with a title and body  
+- ✅ Browse all public posts from other users  
+- ✅ View single post details  
+- ✅ Restrict post creation to logged-in users only  
+- ✅ Log out securely  
+- ✅ Navigate pages through a Blade-based UI  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🌟 Why the Project Is Useful
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+This project demonstrates a realistic Laravel MVC setup including routing, controllers, views, and user authentication.  
+It’s ideal for beginners learning Laravel or for showcasing Laravel fundamentals in a job application.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🚀 How to Get Started
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### ✅ Requirements
 
-### Premium Partners
+- [PHP 8.1+](https://www.php.net/downloads)
+- [Composer](https://getcomposer.org/)
+- [MySQL](https://www.mysql.com/) or SQLite
+- [Node.js + npm](https://nodejs.org/) (for asset building, optional)
+- [XAMPP](https://www.apachefriends.org/) (or WAMP/MAMP for a local server environment)
+- VS Code or any PHP IDE
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+### ⚙️ Setup Steps
 
-## Contributing
+1. Install and configure XAMPP:
+   - Download and install [XAMPP](https://www.apachefriends.org/) for your operating system.
+   - Start the Apache and MySQL modules from the XAMPP control panel.
+   - Ensure MySQL is running and accessible (e.g., via phpMyAdmin).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/postit.git
+   cd postit
+   ```
 
-## Code of Conduct
+3. Install backend dependencies:
+   ```bash
+   composer install
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4. (Optional) Install frontend dependencies:
+   ```bash
+   npm install && npm run dev
+   ```
 
-## Security Vulnerabilities
+5. Copy and configure environment:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+6. Update .env database section:
+   ```ini
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=postit
+   DB_USERNAME=root
+   DB_PASSWORD=yourpassword
+   ```
 
-## License
+7. Run the migrations:
+   ```bash
+   php artisan migrate
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+8. Serve the app:
+   ```bash
+   php artisan serve
+   ```
+
+9. Open your browser:
+   ```
+   http://127.0.0.1:8000
+   ```
+
+---
+
+## ❓ Where to Get Help
+
+- Open an issue on this GitHub repo
+- Contact me on LinkedIn: Mehmed Mehmedov
+- Email: mdxo3@hotmail.com
+
+---
+
+## 👥 Who Maintains This Project
+
+Mehmed Mehmedov  
+Informatics & Computer Science Graduate  
+GitHub: github.com/mdxo3
+
+---
+
+## 🛠️ Built With
+
+- Laravel 10 (PHP Framework)
+- Blade Templating Engine
+- Laravel Routing & Controllers
+- Eloquent ORM (MySQL or SQLite)
+- Bootstrap (optional UI styling)
+- Laravel Auth (custom, not Jetstream)
+
+---
+
+## 📸 Demo Preview
+
+Below are screenshots showcasing the Postit app, located in the `Screenshots` folder:
+
+- **Register**: User registration page.  
+  ![Register](Screenshots/register.png)
+- **Login**: Login interface.  
+  ![Login](Screenshots/login.png)
+- **Main Page**: Welcome page with links to login/register or view posts.  
+  ![Main Page](Screenshots/main_page.png)
+- **Create Post**: Authenticated users can create new posts.  
+  ![Create Post](Screenshots/create_post.png)
+- **Sorting**: The new post is now visible, and we are going to sort the posts.  
+  ![Sorting](Screenshots/sorting.png)
+- **Sorted from Oldest to Newest**: List of all user-created posts, sorted from oldest to newest.  
+  ![Sorted from Oldest to Newest](Screenshots/sorted_from_oldest_to_newest.png)
+- **About**: About page.  
+  ![About](Screenshots/about.png)
+- **Registering**: Shows the user forgetting to put @ in their email.  
+  ![Registering](Screenshots/registering.png)
+- **Failed Register**: The error message that pops up.  
+  ![Failed Register](Screenshots/failed_register.png)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — free to use, learn from, and modify.
