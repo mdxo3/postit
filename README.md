@@ -128,9 +128,9 @@ Below are screenshots showcasing the Postit app, located in the `Screenshots` fo
   ![Register](Screenshots/register.png)
 - **Login**: Login interface.  
   ![Login](Screenshots/login.png)
-- **Main Page**: Welcome page with links to login/register or view posts.  
+- **Main Page**: Here you can view and add posts. 
   ![Main Page](Screenshots/main_page.png)
-- **Create Post**: Authenticated users can create new posts.  
+- **Create Post**: Here is the create Post interface.
   ![Create Post](Screenshots/create_post.png)
 - **Sorting**: The new post is now visible, and we are going to sort the posts.  
   ![Sorting](Screenshots/sorting.png)
