@@ -95,17 +95,17 @@ It’s ideal for beginners learning Laravel or for showcasing Laravel fundamenta
 
 ## ❓ Where to Get Help
 
-- Open an issue on this GitHub repo
-- Contact me on LinkedIn: Mehmed Mehmedov
+- Open an issue or discussion on this repo
+- Contact me on LinkedIn: [Mehmed Mehmedov](https://linkedin.com/in/mdxo3)
 - Email: mdxo3@hotmail.com
 
 ---
 
 ## 👥 Who Maintains This Project
 
-Mehmed Mehmedov  
-Informatics & Computer Science Graduate  
-GitHub: github.com/mdxo3
+**Mehmed Mehmedov**  
+Computer Science Graduate  
+GitHub: https://github.com/mdxo3
 
 ---
 
